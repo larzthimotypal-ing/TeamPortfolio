@@ -22,7 +22,8 @@ body{
 .container{
     overflow: hidden;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    padding: 0 5%;
 }
 
 section.hero{
@@ -34,7 +35,7 @@ section.hero{
 
 @media screen and (min-width: 768px){
     .container{
-        width: 80%;
+        padding: 0 10%;
     }
 
     section.hero{
@@ -44,7 +45,7 @@ section.hero{
 
 @media screen and (min-width: 1024px) {
     .container{
-        width: 75%;
+        padding: 0 13%;
     }
 
     section.hero{

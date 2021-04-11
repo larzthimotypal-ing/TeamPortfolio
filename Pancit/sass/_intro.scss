@@ -51,6 +51,10 @@
                     font-weight: 600;
                     color: $primary--color;
                 }
+
+                .card--content{
+                    color: var(--body--text-color);
+                }
             }
 
             .card > *{
