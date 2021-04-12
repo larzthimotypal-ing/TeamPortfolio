@@ -33,8 +33,8 @@
         .card--image{
             width: 100%;
             height: 250px;
-            border-top-left-radius: 15px;      
-            border-top-right-radius: 15px;  
+            border-top-left-radius: 25px;      
+            border-top-right-radius: 25px;  
         }
 
         .card--image.odd{
@@ -72,6 +72,14 @@
 
 }
 
+@media screen and (min-width: 425px)
+{
+    .showcase-card{
+        width: 85%;
+        max-width: 400px;
+    }
+}
+
 @media screen and (min-width:768px)
 {
 
@@ -105,12 +113,13 @@
     
             .card--content{
                 order: 1;
-                padding: 6rem 3rem;
                 text-align: left;
+                margin: auto;
+                padding: 0 6%;
     
                 .content--heading{
                     font-size: 2rem;
-                    
+                    line-height: 2.6rem;
                 }
 
                 .view--project{
@@ -120,17 +129,17 @@
             }
             .card--image.odd{
                 order:2;
-                border-top-right-radius: 15px;
+                border-top-right-radius: 25px;
                 border-top-left-radius: 0;
-                border-bottom-right-radius: 15px;
+                border-bottom-right-radius: 25px;
                 
             }
     
             .card--image.even{
                 order:-1;
-                border-top-left-radius: 15px;
+                border-top-left-radius: 25px;
                 border-top-right-radius: 0;
-                border-bottom-left-radius: 15px;
+                border-bottom-left-radius: 25px;
             }
         }
     }
